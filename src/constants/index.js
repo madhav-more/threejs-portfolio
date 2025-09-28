@@ -58,11 +58,11 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'Vybe - Instagram inspired we application',
+    desc: 'Developed a dynamic feature-rich social media platform inspired by Instagram enabling users to post reels share stories and interact through likes comments and real-time chat. The app includes instant push notifications a modern and responsive UI and Cloudinary integration for smooth image video uploads. ',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      'Ensured robust security with JWT-based authentication and implemented optimized routing and rendering for scalable performance. Designed for a seamless and engaging user experience across all devices.',
+    href: 'https://github.com/madhav-more',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -96,10 +96,10 @@ export const myProjects = [
   },
   {
     title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    desc: 'Built with the philosophy AI that empowers not replaces educators KrishGuru is a feature rich offline first SaaS platform designed to deliver NEP aligned multilingual education to students in rural India. Developed using React.js Tailwind CSS Node.js Express.js and MongoDB and integrated with advanced tools like Gemini API for intelligent agent responses Groq API for image based analysis .',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'Its smart tutor adapts to each childs level supports English Hindi and regional languages and provides secure hardware free learning with stunning visuals. ',
+    href: 'https://github.com/madhav-more',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -136,7 +136,7 @@ export const myProjects = [
     desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
     subdesc:
       'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+    href: 'https://github.com/madhav-more',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -175,7 +175,7 @@ export const myProjects = [
     desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
     subdesc:
       'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+    href: 'https://github.com/madhav-more',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -212,7 +212,7 @@ export const myProjects = [
     desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
     subdesc:
       'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+    href: 'https://github.com/madhav-more',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
@@ -260,29 +260,32 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'Inforise Technologies',
+    pos: 'Software Developer',
+    duration: 'may 2025 - feb 2026',
+    title: "Worked on several development projects building and deploying scalable responsive full stack web applications using ReactJS NextJS NodeJS and MongoDB and integrated AI solutions with modern frameworks such as LangChain LangGraph OpenAI Gemini APIs and vector databases for intelligent real time features",
+    icon: '/assets/inforise.jpeg',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+    name: 'Shradhha Infosystems',
+    pos: 'Software Developer',
+    duration: 'Nov 2024 - Mar 2025',
+    title: "Built and deployed scalable  responsive full stack web applications using ReactJS  NextJS NodeJS and Mongdb.",
+    icon: '/assets/shradhha.png',
+    animation: 'clapping',
+  },
+   {
+    id: 3,
+    name: 'Proazure',
+    pos: 'Data Science intern',
+    duration: 'May 2024 - Oct 2024',
+    title: "Completed an intensive hands-on internship with real-world exposure to the entire Data Science lifecycle, from data collection to deployment",
     icon: '/assets/figma.svg',
     animation: 'clapping',
   },
-  {
-    id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
-    animation: 'salute',
-  },
+
+  
+  
 ];
